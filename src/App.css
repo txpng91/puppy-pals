@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(35, 35, 36);
+}
+
+#puppy-container {
+  border-radius: 15px;
+  margin: 50px auto;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+  background-color: rgb(50, 55, 83);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.puppy {
+  color: aliceblue;
+  margin: auto;
+  width: 120px;
+  height: 100px;
+  background-color: rgb(43, 48, 63);
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+}
+
+.puppy:hover {
+  box-shadow: 1px 2px 5px aliceblue;
+}
+
+.puppy > p {
+  display: block;
+  margin: 33px auto;
+}
+
+.details {
+  color: aliceblue;
+  border-radius: 15px;
+  margin: 50px auto;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+  background-color: rgb(50, 55, 83);
+}
+
+.details ul {
+  list-style-type: none;
+  margin: 15px 0 0 0;
+}
